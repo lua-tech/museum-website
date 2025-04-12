@@ -121,7 +121,7 @@ footer {
   padding: 10px;
 }
 
-frame.img {
+frame img {
   position:absolute;
   transform-origin: 50%;
   width: 100%;
