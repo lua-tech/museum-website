@@ -20,14 +20,14 @@ header {
 
 header h1 {
   font-family: "DM Serif Display", serif;
-  font-size:50px;
+  font-size: 50px;
   text-decoration: none;
   line-height: 0.5;
 }
 
 header h2 {
   font-family: "Meie Script", cursive;
-   font-size: 35px;
+  font-size: 35px;
   margin-top: 1px;
   line-height: 0;
 }
@@ -76,12 +76,12 @@ article img {
   border-radius: 10px;
   display: block;
   margin: 0 auto;
-  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; 
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 
 article img:hover {
-  transform: scale(1.05); 
-  filter: brightness(110%); 
+  transform: scale(1.05);
+  filter: brightness(110%);
 }
 
 aside {
@@ -131,4 +131,28 @@ frame img {
 frame:hover {
   transform:scale(2);
   filter:blur(2px);
+}
+
+::-webkit-scrollbar {
+  width: 5px; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: #FBFBFB; 
+  border-radius: 5px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #504B38; 
+  border-radius: 5px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #6A6349; 
+}
+
+/*custom scrollbar firefox */
+body {
+  scrollbar-width: thin; 
+  scrollbar-color: #504B38 #F8F3D9;
 }
