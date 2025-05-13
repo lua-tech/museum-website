@@ -32,6 +32,19 @@ header h2 {
   line-height: 0;
 }
 
+header a h2 {
+  color: #bab694;
+}
+
+header a:hover h1,
+header a:hover h2 {
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
 main {
   display: flex;
   padding: 20px;
