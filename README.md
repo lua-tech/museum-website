@@ -1,4 +1,4 @@
-# museum website
+# musée du louvre - blog
 **prova 1 - programação web: site estático em html & css | 1º semestre**
 
 **pt-br**: criação de site estático utilizando as linguagens de marcação HTML5 e CSS3 para a primeira prova da disciplina de programação web no 1º semestre do curso de ciência da computação, com temática livre. o site fictício tem como principal objetivo apresentar as obras do museu do louvre para visitantes interessados.
